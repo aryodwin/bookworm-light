@@ -49,7 +49,7 @@ link = "plugins/search/search.js"
 
 # site variables
 [params.variables]
-font_primary = "Mulish"
+font_primary = "Work Sans"
 h1 = "64px"
 h1_lg = "52px"
 h1_md = "42px"
