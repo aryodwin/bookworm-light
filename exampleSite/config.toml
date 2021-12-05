@@ -31,7 +31,7 @@ link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
 link = "plugins/line-awesome/css/line-awesome.min.css"
 [[params.plugins.css]]
-link = "https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600&display=swap"
+link = "https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;600;700;800;900&display=swap"
 
 # JS Plugins
 [[params.plugins.js]]
