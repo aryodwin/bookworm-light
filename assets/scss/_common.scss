@@ -182,7 +182,24 @@ a.post-title:hover,
   img {
     margin-bottom: 30px;
     @extend .rounded;
+    -webkit-box-shadow: 0 30px 60px -10px rgba(23, 43, 77,.22),0 18px 36px -18px rgba(23, 43, 77,.25);
+    box-shadow: 0 30px 60px -10px rgba(23, 43, 77,.22),0 18px 36px -18px rgba(23, 43, 77,.25);
+    -webkit-transition: -webkit-transform .3s var(--ease-out-quad),-webkit-box-shadow .3s var(--ease-out-quad);
+    transition: -webkit-transform .3s var(--ease-out-quad),-webkit-box-shadow .3s var(--ease-out-quad);
+    -o-transition: transform .3s var(--ease-out-quad),box-shadow .3s var(--ease-out-quad);
+    transition: transform .3s var(--ease-out-quad),box-shadow .3s var(--ease-out-quad);
+    transition: transform .3s var(--ease-out-quad),box-shadow .3s var(--ease-out-quad),-webkit-transform .3s var(--ease-out-quad),-webkit-box-shadow .3s var(--ease-out-quad);
   }
+
+  img:hover {
+    -webkit-transform: translateY(-1px);
+    -ms-transform: translateY(-1px);
+    transform: translateY(-1px);
+    -webkit-box-shadow: 0 50px 80px -20px rgba(23, 43, 77,.27),0 30px 50px -30px rgba(23, 43, 77,.3);
+    box-shadow: 0 50px 80px -20px rgba(23, 43, 77,.27),0 30px 50px -30px rgba(23, 43, 77,.3);
+  }
+
+
 
   h2,
   h3,
@@ -595,7 +612,7 @@ button.input-group-text {
 }
 
 .rounded {
-  border-radius: 10px !important;
+  border-radius: 6px !important;
   overflow: hidden;
 }
 
