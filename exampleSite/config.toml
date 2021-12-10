@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 baseURL = "https://dwintest.netlify.app"
-title = "Bookworm - Personal Blog Template"
+title = "Aryodwin"
 theme = "bookworm-light"
 # post pagination
 paginate = "5"
@@ -31,7 +31,7 @@ link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
 link = "plugins/line-awesome/css/line-awesome.min.css"
 [[params.plugins.css]]
-link = "https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;600&display=swap"
+link = "https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500&display=swap"
 
 # JS Plugins
 [[params.plugins.js]]
@@ -49,7 +49,7 @@ link = "plugins/search/search.js"
 
 # site variables
 [params.variables]
-font_primary = "Work+Sans:wght@300;400;600"
+font_primary = "Work+Sans:wght@300;400;500"
 font_primary_type = "serif"
 h1 = "64px"
 h1_lg = "52px"
@@ -63,14 +63,14 @@ h5 = "18px"
 h6 = "16px"
 white = "#ffffff"
 black = "#000000"
-dark = "#091E42"
+dark = "#172B4D"
 gray = "#7A869A"
 light = "#FAFBFC"
-color_primary = "#403294"
+color_primary = "#5243AA"
 
 #################### default parameters ################################
 [params]
-logo = "images/logo.png"
+logo = false #"images/logo.png"
 logo_height = "35px"
 favicon = "images/favicon.png"
 # Meta data
