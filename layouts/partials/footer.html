@@ -1,6 +1,9 @@
 <footer class="section-sm">
   <div class="container">
-    <div class="row justify-content-center align-items-center">
+    <div class="row align-items-left">
+      <a>&copy; 2021 Aryodwin </a>
+    </div>
+    <div class="row justify-content-center align-items-right">
       <!--<div class="col-lg-5">
         {{ with site.Params.subscription }}
         {{ if .enable }}
@@ -27,13 +30,12 @@
           <li class="list-inline-item mx-3"><a href="{{.URL | absURL}}">{{.Name}}</a></li>
           {{ end }}
         </ul>-->
-        <a>&copy; 2021 Aryodwin </a>
-        {{range site.Params.social}}
-        <a href="{{.url}}" aria-label="social-icon">
-          <i class="lab {{.icon}}"></i>
-        </a>
-        {{end}}
         <ul class="social-links icon-box list-unstyled list-inline font-weight-500 mb-3">
+          {{range site.Params.social}}
+          <a href="{{.url}}" aria-label="social-icon">
+            <i class="lab {{.icon}}"></i>
+          </a>
+          {{end}}
         </ul>
         <!--{{ with site.Params.copyright }}
         <p class="mb-0 font-weight-500 copyright-text content">{{.| markdownify}}</p>
