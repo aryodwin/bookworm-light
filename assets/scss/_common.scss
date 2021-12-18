@@ -666,11 +666,11 @@ a.text-dark:hover {
 
 // footer
 footer {
-  background-color: $gray;
+  background-color: $light;
   .icon-box a {
-    color: rgba($white, .7);
+    color: rgba($dark, .7);
     &:hover {
-      color: $white;
+      color: $dark;
       background-color: $color-primary;
       border-color: $color-primary;
     }
