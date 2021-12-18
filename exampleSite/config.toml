@@ -50,7 +50,9 @@ link = "plugins/search/search.js"
 # site variables
 [params.variables]
 font_primary = "Work+Sans:wght@300;400;500"
-font_primary_type = "serif"
+font_primary_type = "sans-serif"
+font_secondary = "PT Serif"
+font_secondary_type = "serif"
 h1 = "64px"
 h1_lg = "52px"
 h1_md = "42px"
@@ -66,7 +68,7 @@ black = "#000000"
 dark = "#172B4D"
 gray = "#7A869A"
 light = "#FAFBFC"
-color_primary = "#5243AA"
+color_primary = "#505F79"
 
 #################### default parameters ################################
 [params]
@@ -175,25 +177,25 @@ hasChildren = true
   weight = 6
 
 ############################# Footer Menu ########################
-[[menu.footer]]
-name = "About"
-url = "about/"
-weight = 1
+#[[menu.footer]]
+#name = "About"
+#url = "about/"
+#weight = 1
 
-[[menu.footer]]
-name = "Authors"
-url = "author/"
-weight = 2
+#[[menu.footer]]
+#name = "Authors"
+#url = "author/"
+#weight = 2
 
-[[menu.footer]]
-name = "Privacy"
-url = "privacy/"
-weight = 3
+#[[menu.footer]]
+#name = "Privacy"
+#url = "privacy/"
+#weight = 3
 
-[[menu.footer]]
-name = "Terms & Conditions"
-url = "terms-conditions/"
-weight = 4
+#[[menu.footer]]
+#name = "Terms & Conditions"
+#url = "terms-conditions/"
+#weight = 4
 
 # Social Icons
 [[params.social]]
