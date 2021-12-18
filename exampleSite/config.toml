@@ -67,7 +67,7 @@ white = "#ffffff"
 black = "#000000"
 dark = "#344563"
 gray = "#7A869A"
-light = "#FAFBFC"
+light = "#EBECF0"
 color_primary = "#00B8D9"
 
 #################### default parameters ################################
