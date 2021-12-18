@@ -15,8 +15,8 @@
       </div>
     </div>
 
-    <div class="row justify-content-center align-items-right">
-      <!--<div class="col-lg-5">
+    <!--<div class="row justify-content-center align-items-right">
+      <div class="col-lg-5">
         {{ with site.Params.subscription }}
         {{ if .enable }}
         <div class="newsletter-block font-primary">
@@ -35,13 +35,13 @@
         </div>
         {{ end }}
         {{ end }}
-      </div>-->
+      </div>
       <div class="col-lg-12 text-center mt-5">
-        <!--<ul class="list-inline footer-menu mb-4">
+        <ul class="list-inline footer-menu mb-4">
           {{ range site.Menus.footer }}
           <li class="list-inline-item mx-3"><a href="{{.URL | absURL}}">{{.Name}}</a></li>
           {{ end }}
-        </ul>-->
+        </ul>
         <ul class="social-links icon-box list-unstyled list-inline font-weight-500 mb-3">
           {{range site.Params.social}}
           <li class="list-inline-item text-center"><a href="{{.url}}" aria-label="social-icon">
@@ -49,10 +49,10 @@
           </a></li>
           {{end}}
         </ul>
-        <!--{{ with site.Params.copyright }}
+        {{ with site.Params.copyright }}
         <p class="mb-0 font-weight-500 copyright-text content">{{.| markdownify}}</p>
-        {{ end }}-->
+        {{ end }}
       </div>
-    </div>
+    </div> -->
   </div>
 </footer>
