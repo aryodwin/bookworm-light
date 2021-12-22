@@ -10,7 +10,8 @@
         <div class="text-center mb-5">
           <h3 class="h2 mb-4 post-title">{{.Title}}</h3>
           <ul class="card-meta list-inline">
-            <!--<li class="list-inline-item">
+            <!--
+            <li class="list-inline-item">
                <a href="#!" class="card-meta-author">
                 {{ with .Site.GetPage (.Params.author | urlize | lower) }}
                 <a href="{{.Permalink}}" class="card-meta-author">
@@ -19,8 +20,9 @@
                 </a>
                 {{ end }}
               </a>
-            </li>-->
+            </li>
             <li class="list-inline-item">|</li>
+            -->
             <li class="list-inline-item">
               <span>{{.PublishDate.Format "02 January 2006"}}</span>
             </li>
@@ -55,6 +57,7 @@
       </div>
     </div>
 
+    <!-- removing author
     <div class="single-post-author">
       <div class="row justify-content-center">
         <div class="col-lg-10">
@@ -78,6 +81,7 @@
         </div>
       </div>
     </div>
+    -->
 
     <div class="single-post-similer">
       <div class="row justify-content-center">
